@@ -10,7 +10,7 @@ export interface ProjectInterface {
   githubLink?: string;
   techStack: ValidSkills[];
   startDate: Date;
-  endDate: Date;
+  endDate: Date | "Present";
   companyLogoImg: any;
 }
 
@@ -31,7 +31,7 @@ export const Projects: ProjectInterface[] = [
       "Node.js",
     ],
     startDate: new Date("2025-07-01"),
-    endDate: new Date("present"),
+    endDate: "Present",
     companyLogoImg: "/projects/cukai.png",
   },
   {
@@ -75,6 +75,7 @@ export const Projects: ProjectInterface[] = [
       "Designed posters and logos for social media campaigns, events and competition.",
     websiteLink:
       "https://drive.google.com/file/d/1BilU2KT1VANibz5zwRnzS-By9XJdp7tI/view",
+    techStack: ["UI/UX Design", "Creative Design", "Graphic Design"],
     startDate: new Date("2021-01-01"),
     endDate: new Date("2022-01-01"),
     companyLogoImg: "/projects/graphic.png",
@@ -87,6 +88,7 @@ export const Projects: ProjectInterface[] = [
     shortDescription:
       "Represented Malaysia in international programs on archaeology in Turkey",
     websiteLink: "https://www.yee.org.tr/en/node/11668",
+    techStack: ["Cultural Exchange", "International Relations", "Archaeology"],
     startDate: new Date("2022-06-01"),
     endDate: new Date("2023-06-01"),
     companyLogoImg: "/projects/global.png",
