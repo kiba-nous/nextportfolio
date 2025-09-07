@@ -46,7 +46,7 @@ export const Projects: ProjectInterface[] = [
       "Artificial Intelligence",
       "Machine Learning",
       "Python",
-      "Vue",
+      "Vue.js",
       "Node.js",
     ],
     startDate: new Date("2022-01-01"),
