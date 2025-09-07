@@ -9,27 +9,27 @@ interface SocialInterface {
 
 export const SocialLinks: SocialInterface[] = [
   {
-    name: "Github",
-    username: "@namanbarkiya",
-    icon: Icons.gitHub,
-    link: "https://github.com/namanbarkiya",
-  },
-  {
     name: "LinkedIn",
-    username: "Naman Barkiya",
+    username: "Nur Syazwani Naqibah",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
+    link: "https://linkedin.com/in/nur-syazwani-naqibah",
   },
   {
-    name: "Twitter",
-    username: "@namanbarkiya",
-    icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
+    name: "Website",
+    username: "snaqibah.my",
+    icon: Icons.globe,
+    link: "https://snaqibah.my",
+  },
+  {
+    name: "Phone",
+    username: "+6018-2130655",
+    icon: Icons.phone,
+    link: "tel:+60182130655",
   },
   {
     name: "Gmail",
-    username: "naman.barkiya02",
+    username: "syazwaninaqibah",
     icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "mailto:syazwaninaqibah@gmail.com",
   },
 ];

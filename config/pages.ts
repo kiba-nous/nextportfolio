@@ -47,12 +47,12 @@ export const pagesConfig: PagesConfig = {
     },
   },
   contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+    title: "Achievements & Involvements",
+    description: "Awards, certifications, leadership roles, and community contributions.",
     metadata: {
-      title: "Contributions",
+      title: "Achievements & Involvements",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Nur Syazwani Naqibah's achievements, certifications, and community involvements.",
     },
   },
   resume: {

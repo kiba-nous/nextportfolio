@@ -9,152 +9,116 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
+    name: "Artificial Intelligence",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Building innovative AI-native solutions and strategic implementations for various industries.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.cyberpunk,
   },
   {
-    name: "React",
+    name: "Prompt Engineering",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "Designing and optimizing AI prompts for maximum efficiency and accuracy in AI applications.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.cyberpunk,
   },
   {
-    name: "GraphQL",
+    name: "Data Analysis",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "Analyzing complex datasets to derive actionable insights and drive business decisions.",
+    rating: 5,
+    icon: Icons.arrowRight,
+  },
+  {
+    name: "Design Thinking",
+    description:
+      "Applying human-centered design approaches to solve complex problems and innovate solutions.",
+    rating: 5,
+    icon: Icons.retro,
+  },
+  {
+    name: "Leadership",
+    description:
+      "Leading teams and organizations through strategic vision, effective communication, and mentorship.",
+    rating: 5,
+    icon: Icons.user,
+  },
+  {
+    name: "Entrepreneurship",
+    description:
+      "Building and scaling innovative businesses from concept to execution, including founding Employou Technologies.",
+    rating: 5,
+    icon: Icons.star,
+  },
+  {
+    name: "AI Ethics and Governance",
+    description:
+      "Implementing responsible AI practices and ensuring ethical considerations in AI development.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.check,
   },
   {
-    name: "Nest.js",
+    name: "Quality Assurance",
     description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+      "Ensuring high standards in processes, products, and services through systematic quality control methods.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: Icons.check,
   },
   {
-    name: "express.js",
+    name: "Full-stack Development",
     description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+      "Developing end-to-end software solutions with modern technologies and frameworks.",
+    rating: 4,
     icon: Icons.typescript,
   },
   {
-    name: "Javascript",
+    name: "Communication",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "Effectively communicating complex ideas across diverse audiences and cultural contexts.",
     rating: 5,
-    icon: Icons.javascript,
+    icon: Icons.contact,
   },
   {
-    name: "HTML 5",
+    name: "Writing",
     description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+      "Creating compelling content, documentation, and strategic communications across various formats.",
     rating: 4,
-    icon: Icons.html5,
+    icon: Icons.post,
   },
   {
-    name: "CSS 3",
+    name: "UI/UX Design",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "Designing user-centered interfaces and experiences that are both functional and aesthetically pleasing.",
     rating: 4,
-    icon: Icons.css3,
+    icon: Icons.retro,
   },
   {
-    name: "React Native",
+    name: "Lean Six Sigma",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Applying process improvement methodologies to optimize operations and eliminate waste.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.arrowRight,
   },
   {
-    name: "Angular",
+    name: "Agile",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
+      "Implementing agile methodologies for efficient project management and iterative development.",
     rating: 4,
-    icon: Icons.redux,
+    icon: Icons.arrowRight,
   },
   {
-    name: "Socket.io",
+    name: "Community Building",
     description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
+      "Creating and nurturing communities around shared goals and values for collective impact.",
     rating: 4,
-    icon: Icons.mui,
+    icon: Icons.user,
   },
-
   {
-    name: "Tailwind CSS",
+    name: "Problem Solving",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Approaching complex challenges with analytical thinking and innovative solution design.",
     rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.cyberpunk,
   },
 ];
 

@@ -31,10 +31,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex gap-2 flex-wrap">
           <ChipContainer textArr={project.category} />
         </div>
-        <Link href={`/projects/${project.id}`}>
+        <Link href={project.websiteLink || "#"} target={project.websiteLink ? "_blank" : "_self"}>
           <Button variant={"default"} className="mt-2">
-            Read more
-            <Icons.chevronRight className="w-4 ml-1" />
+            Learn More
+            <Icons.externalLink className="w-4 ml-1" />
           </Button>
         </Link>
       </div>
